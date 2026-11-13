@@ -18,14 +18,14 @@ and remediation guidance an engineering team can act on.
   web applications and APIs for programs across fintech, SaaS, hosting and consumer brands.
 - **Focus areas:** authentication and authorisation flaws (IDOR, broken access control),
   injection, XSS/CSRF, business-logic abuse and API security (OWASP Top 10, OWASP API Security Top 10).
-- **Tooling:** I write Python to make the boring parts of an assessment repeatable.
+- **Tooling:** I build open-source security tools in Python — MintMap (Django auth static analysis) and SecureScope (web security scanner).
 
 ## Projects
 
 | Project | What it is |
 | --- | --- |
-| [**SecureScope**](https://github.com/mohamedmoatazsec/SecureScope) | Web security posture scanner: a real CSP evaluator, HSTS/cookie quality, TLS, CORS and HTTP methods, every finding backed by evidence with a fix and references, A+–F grades, SARIF/HTML/JSON reports, and `--fail-on`/`--baseline` so it gates CI on regressions only. Ships as a CLI, a GitHub Action and a Docker image. Python, 75+ tests, MIT. |
 | [**MintMap**](https://github.com/mohamedmoatazsec/mintmap) | Static analysis for Django auth: maps the code paths that create a login session or credential, records the reviewed set in a `mintmap.lock` file, and fails CI when a reviewed path, its code, or what the tool can analyse changes — so changes to authentication-critical code get surfaced for review instead of slipping through. Standard-library only. Ships as a CLI and a GitHub Action. Python, Apache-2.0. |
+| [**SecureScope**](https://github.com/mohamedmoatazsec/SecureScope) | Web security posture scanner: a real CSP evaluator, HSTS/cookie quality, TLS, CORS and HTTP methods, every finding backed by evidence with a fix and references, A+–F grades, SARIF/HTML/JSON reports, and `--fail-on`/`--baseline` so it gates CI on regressions only. Ships as a CLI, a GitHub Action and a Docker image. Python, 75+ tests, MIT. |
 
 ## Credentials
 
