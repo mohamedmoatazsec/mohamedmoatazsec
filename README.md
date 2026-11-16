@@ -25,6 +25,7 @@ and remediation guidance an engineering team can act on.
 | Project | What it is |
 | --- | --- |
 | [**SecureScope**](https://github.com/mohamedmoatazsec/SecureScope) | Web security posture scanner: a real CSP evaluator, HSTS/cookie quality, TLS, CORS and HTTP methods, every finding backed by evidence with a fix and references, A+–F grades, SARIF/HTML/JSON reports, and `--fail-on`/`--baseline` so it gates CI on regressions only. Ships as a CLI, a GitHub Action and a Docker image. Python, 75+ tests, MIT. |
+| [**MintMap**](https://github.com/mohamedmoatazsec/mintmap) | Static analysis for Django auth: maps the code paths that create a login session or credential, records the reviewed set in a `mintmap.lock` file, and fails CI when a reviewed path, its code, or what the tool can analyse changes — so changes to authentication-critical code get surfaced for review instead of slipping through. Standard-library only. Ships as a CLI and a GitHub Action. Python, Apache-2.0. |
 
 ## Credentials
 
