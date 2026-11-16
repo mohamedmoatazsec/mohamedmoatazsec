@@ -24,7 +24,7 @@ and remediation guidance an engineering team can act on.
 
 | Project | What it is |
 | --- | --- |
-| [**SecureScope**](https://github.com/mohamedmoatazsec/SecureScope) | Web security posture assessment CLI: security headers, cookies, TLS, CORS, HTTP methods and recon, with HTML/JSON/CSV reports and prioritised recommendations. Python, tested, MIT. |
+| [**SecureScope**](https://github.com/mohamedmoatazsec/SecureScope) | Web security posture scanner: a real CSP evaluator, HSTS/cookie quality, TLS, CORS and HTTP methods, every finding backed by evidence with a fix and references, A+–F grades, SARIF/HTML/JSON reports, and `--fail-on`/`--baseline` so it gates CI on regressions only. Ships as a CLI, a GitHub Action and a Docker image. Python, 75+ tests, MIT. |
 
 ## Credentials
 
